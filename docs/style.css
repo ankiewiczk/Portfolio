@@ -4,8 +4,9 @@ h1     	{
 		 border:white solid 3px;
 		}
 	   
-p		{
+#description		{
 		 color:blue;
+		 float:left;
 		}
 img 	{
 	  
@@ -15,6 +16,22 @@ a		{
 			font-family:Courier;
 		}
 		
-ul {
-			
-		}
+ul {list-style-type: none;
+	margin: 0;
+	padding: 0;		
+}
+/*This is the style for the list items INSIDE the UL */
+ul li { float:left;
+        margin:2px;
+		padding:2px;
+		background-color:#AAA;}
+
+
+/*Let's make the image be on the right side of the page
+and have the descriptive paragraph wrap around it */
+#imgWCaption { float:right;
+               margin:10px; }
+
+/*Let's shrink that image so it fits better on half a page based on tablet
+only changing width should make it stay proportional*/
+img { width:300px; }
