@@ -3,6 +3,12 @@ h1     	{
 		 background-color:black;
 		 border:white solid 3px;
 		}
+
+/*Setting content to be width of tablet and
+  using margin:auto to center horizontally*/
+#content {width:768px;
+          margin:auto;
+          }
 	   
 #description		{
 		 color:blue;
